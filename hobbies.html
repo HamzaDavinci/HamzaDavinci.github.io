@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/60d51b95d2.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" type="image/fav-icon" href="media/favicon.ico">
+    <title>Portfolio - Hamza | Hobbies</title>
+
+</head>
+
+<body>
+    <h1>Hamza's Portfolio</h1>
+
+    <div class="innerbody">
+        <!-- Navigation Bar -->
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-user-astronaut" style="color: #0bfffb;"></i> Over mij</a>
+            </li>
+            <li><a href="projecten.html"><i class="fa-solid fa-puzzle-piece" style="color: #0bfffb;"></i> Projecten</a>
+            </li>
+            <li><a href="studie.html"><i class="fa-solid fa-book" style="color: #0bfffb;"></i> Studie</a></li>
+            <li><a class="active" href="hobbies.html"><i class="fa-solid fa-paintbrush" style="color: #0bfffb;"></i>
+                    Hobbies</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-address-card" style="color: #0bfffb;"></i> contact</a></li>
+            <li class="download-button"><a href="media/Hamza - Software development CV.pdf" download><i
+                        class="fa-solid fa-download" style="color: #0bfffb;"></i> Download CV</a></li>
+        </ul>
+
+        <p>Mijn Hobbies.</p>
+
+        <div class="content-container" data-index="0">
+            <!-- Hobbie #1 -->
+            <div class="content-description">
+                <h2>Gamen</h2>
+                <p>Een van mijn hobbies is gamen ik speel vooral deze spellen: <a style="color: #0bceff"
+                        href="https://www.minecraft.net/">Minecraft</a>, <a style="color: #0bceff"
+                        href="https://fortnite.com/">Fortnite</a>, <a style="color: #0bceff"
+                        href="https://playvalorant.com/">Valorant</a>, <a style="color: #0bceff"
+                        href="https://osu.ppy.sh/">Osu</a> soms speel ik ook andere spellen met vrienden.</p>
+            </div>
+            <div class="content-image">
+                <div class="slider">
+                    <img src="media/Hamza-hobby-game-img.png" alt="Davinci College">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content-container" data-index="1">
+            <!-- Hobbie #2 -->
+            <div class="content-description">
+                <h2>Natuur gebieden bezoeken</h2>
+                <p>Bijna elke jaar wanneer ik op vakantie ga naar Turkije ga ik met mijn familie naar natuur plekken
+                    zoals: gebergte, watervallen en rivieren en meer natuur gebieden en uitzichtpunten.</p>
+            </div>
+            <div class="content-image">
+                <button class="arrow left" onclick="changeImage(1, -1)"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="slider">
+                    <img src="media/Turkije-img 1.png" alt="Turkije">
+                    <img src="media/Turkije-img 2.png" alt="Turkije">
+                    <img src="media/Turkije-img 3.png" alt="Turkije">
+                    <img src="media/Turkije-img 4.png" alt="Turkije">
+                </div>
+                <button class="arrow right" onclick="changeImage(1, 1)"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="innerbody">
+        <!-- Footer -->
+        <footer>Made and designed, By Hamzq</footer>
+    </div>
+</body>
+
+</html>

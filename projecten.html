@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/60d51b95d2.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" type="image/fav-icon" href="media/favicon.ico">
+    <title>Portfolio - Hamza | Projecten</title>
+</head>
+
+<body>
+    <h1>Hamza's Portfolio</h1>
+
+    <div class="innerbody">
+        <!-- Navigation Bar -->
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-user-astronaut" style="color: #0bfffb;"></i> Over mij</a>
+            </li>
+            <li><a class="active" href="projecten.html"><i class="fa-solid fa-puzzle-piece" style="color: #0bfffb;"></i>
+                    Projecten</a></li>
+            <li><a href="studie.html"><i class="fa-solid fa-book" style="color: #0bfffb;"></i> Studie</a></li>
+            <li><a href="hobbies.html"><i class="fa-solid fa-paintbrush" style="color: #0bfffb;"></i> Hobbies</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-address-card" style="color: #0bfffb;"></i> contact</a></li>
+            <li class="download-button"><a href="media/Hamza - Software development CV.pdf" download><i
+                        class="fa-solid fa-download" style="color: #0bfffb;"></i> Download CV</a></li>
+        </ul>
+
+        <p>Ik heb sinds klein al aan paar projecten gewerkt en hier kan je ze zien.</p>
+
+        <!-- Project #1 -->
+        <div class="content-container" data-index="0">
+            <div class="content-description">
+                <h2>Hypelands</h2>
+                <p>Hypelands is een project dat ik ben gestart in 2017. Het is een custom survival server, vergelijkbaar
+                    met <a style="color: #0bceff" href="https://minecraft.net">Minecraft</a>, maar dan voor het spel <a
+                        style="color: #0bceff" href="https://hytale.com">Hytale</a>. Dit spel is nog niet uitgebracht,
+                    maar ik heb wel een Discord-community en een <a style="color: #0bceff"
+                        href="https://hypelands.net">website</a> gemaakt. Hierbij heb ik gewerkt met mijn eigen
+                    webserver en het verbinden van domeinen.</p>
+                <p style="color: #08e778; display: inline;">Wat heb ik geleerd van dit project?</p>
+                <p style="color: #0bceff; display: inline;">Ik heb geleerd hoe je een community moet onderhouden, hoe je
+                    een webserver gebruikt, hoe DNS werkt en hoe domeinen werken.</p>
+
+            </div>
+            <div class="content-image">
+                <button class="arrow left" onclick="changeImage(0, -1)"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="slider">
+                    <img src="media/Hypelands-project-img 1.png" alt="Hypelands Project - Image 1">
+                    <img src="media/Hypelands-project-img 2.png" alt="Hypelands Project - Image 2">
+                    <img src="media/Hypelands-project-img 3.png" alt="Hypelands Project - Image 3">
+                </div>
+                <button class="arrow right" onclick="changeImage(0, 1)"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <!-- Project #2 -->
+        <div class="content-container" data-index="1">
+            <div class="content-description">
+                <h2>#1 StarveLands</h2>
+                <p>StarveLands #1 was een <a style="color: #0bceff" href="https://minecraft.net">Minecraft</a> server
+                    waar je kon overleven tegen custom wezens in een wereld met verschillende zones. Er waren 3
+                    zones om te verkennen en custom NPC's, monsters en voorwerpen te ontdekken en te maken. Het doel van
+                    dit spel was de sterkste te worden door naar de sterkere zones te gaan.</p>
+                <p style="color: #08e778; display: inline;">Wat heb ik geleerd van dit project?</p>
+                <p style="color: #0bceff; display: inline;">Ik heb geleerd hoe je een community moet onderhouden, hoe je
+                    verschillende plugins met elkaar laat werken door de YML-bestanden te wijzigen, en ik heb ook
+                    geleerd hoe je een online winkel maakt voor Minecraft servers.</p>
+            </div>
+            <div class="content-image">
+                <button class="arrow left" onclick="changeImage(1, -1)"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="slider">
+                    <img src="media/StarveLands 1 Image 1.png" alt="StarveLands Project - Image 1">
+                    <img src="media/StarveLands 1 Image 2.png" alt="StarveLands Project - Image 2">
+                    <img src="media/StarveLands 1 Image 3.png" alt="StarveLands Project - Image 3">
+                    <img src="media/StarveLands 1 Image 4.png" alt="StarveLands Project - Image 4">
+                    <img src="media/StarveLands 1 Image 5.png" alt="StarveLands Project - Image 5">
+                </div>
+                <button class="arrow right" onclick="changeImage(1, 1)"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <!-- Project #3 -->
+        <div class="content-container" data-index="2">
+            <div class="content-description">
+                <h2>#2 StarveLands</h2>
+                <p>StarveLands #2 was niet hetzelfde als de eerste StarveLands, maar had wel inspiratie er van, zoals de
+                    NPC's,
+                    monsters en items. Deze server bestond uit een lange map met 7 verschillende zones waar je quests
+                    moest doen om naar de volgende zone te gaan en nieuwe spullen te verkrijgen. Het doel was om alle
+                    zones te verslaan en uiteindelijk een gorilla eindbaas te verslaan door bij elke zone sterker te
+                    worden.
+                </p>
+                <p style="color: #08e778; display: inline;">Wat heb ik geleerd van dit project?</p>
+                <p style="color: #0bceff; display: inline;">Ik heb geleerd hoe je een community moet onderhouden, hoe je
+                    een Minecraft server gebruikt, hoe je een domein verbindt met je Minecraft server IP en hoe je met
+                    YML-bestanden werkt.</p>
+
+            </div>
+            <div class="content-image">
+                <button class="arrow left" onclick="changeImage(2, -1)"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="slider">
+                    <img src="media/StarveLands 2 Image 1.png" alt="StarveLands Project - Image 1">
+                    <img src="media/StarveLands 2 Image 2.png" alt="StarveLands Project - Image 2">
+                    <img src="media/StarveLands 2 Image 3.png" alt="StarveLands Project - Image 3">
+                    <img src="media/StarveLands 2 Image 4.png" alt="StarveLands Project - Image 4">
+                </div>
+                <button class="arrow right" onclick="changeImage(2, 1)"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="innerbody">
+        <!-- Footer -->
+        <footer>Made and designed, By Hamzq</footer>
+    </div>
+</body>
+
+</html>
